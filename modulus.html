@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,12 @@
     <title>ES6 javascript calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="main" >
-    <h1 class="header" >ES6 Division</h1>
 
+<body class="main" >
+
+    <h1 class="header" >ES6 Modulus</h1>
+
+    
     <nav>
         <ul>
           <li> <a href="./index.html">for Addition</a></li>
@@ -25,16 +29,17 @@
         <a href="https://github.com/MKQazi786">Github.com/MKQazi786</a>
     </footer>
 
-    <script>
+    <script type="module">
         let num1 = prompt("enter your 1st number: ");
         let num2 = prompt("enter your 2nd number: ");
 
         num1 = Number(num1);
         num2 = Number(num2);
 
-        let num3 = num1 / num2
+        let num3 = num1 % num2;
 
-        alert("your division is: "+ num3);
+        alert('your modulus is: '+ num3);
     </script>
 </body>
+
 </html>
